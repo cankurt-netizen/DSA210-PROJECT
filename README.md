@@ -133,9 +133,9 @@ The following hypotheses were evaluated using statistical analysis and correlati
 
 | Hypothesis | Description | Result |
 |------------|------------|--------|
-| H1 | Date production exhibits long-term growth patterns | Confirmed (steady increase over time) |
-| H2 | Production varies across seasons and harvest periods | Confirmed (clear seasonal patterns) |
-| H3 | Ramadan increases demand (Google Trends) | Confirmed (significant spikes observed) |
-| H4 | Higher production reduces price pressure | Partially confirmed (inverse relationship observed) |
+| H1 | Date production exhibits long-term growth patterns | Partially Confirmed (F-test p = 0.095 > 0.05; weak positive relationship) |
+| H2 | Production varies across seasons and harvest periods | Confirmed () |
+| H3 | Ramadan increases demand (Google Trends) | Confirmed () |
+| H4 | Higher production reduces price pressure | Partially confirmed () |
 | H5 | Search interest reflects demand trends | Weak positive relationship |
 
