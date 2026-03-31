@@ -1,4 +1,4 @@
-# Analyzing Date Price and Demand Patterns in Saudi Arabia
+# 🌴 Analyzing Date Price and Demand Patterns in Saudi Arabia 🌴
 
 ---
 
