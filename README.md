@@ -12,13 +12,13 @@
 
 Having been born in Saudi Arabia, dates have always been a significant part of my diet. They are widely produced across the country and are recognized as a staple food rich in nutrients and dietary fiber. Dates hold considerable importance in Saudi Arabiaâ€™s agricultural, economic, and religious sectors due to their high quality and strong market demand. They are consumed daily, with particularly high demand during Ramadan, when they are traditionally used to break the fast.
 
-Despite their importance, flucuations in date prices are often attributed to general assumptions, such as seasonal harvest cycles or increased demand during religous periods. This project aims to move beyond these assumptions by analyzing the underlying factors through a data-driven approach.
+Despite their importance, fluctuations in date prices are often attributed to general assumptions, such as seasonal harvest cycles or increased demand during religious periods. This project aims to move beyond these assumptions by analyzing the underlying factors through a data-driven approach.
 
 ---
 
 ## Data Sources
 
-This project integrates four heterogeneous datasets covering approximately 1999â€“2025, enriched and aligned temporally:
+This project integrates four heterogeneous datasets covering periods approximately between 2000 and 2025, enriched and aligned temporally:
 
 
 ### 1. Date Production & Prices (Saudi Arabia)
@@ -95,10 +95,10 @@ This project integrates four heterogeneous datasets covering approximately 1999â
   - consistent time ranges will be formatted across all datasets  
 
 - Data alignment  
-  - Production, Google Trends, and seasonal indicators will aligned by (year) period 
+  - Production, Google Trends, and seasonal indicators will be aligned by (year) period 
 
 - Data normalization  
-  - Standard varibes from data will be normalized   
+  - Standard variables from data will be normalized   
 
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -106,7 +106,7 @@ This project integrates four heterogeneous datasets covering approximately 1999â
 EDA focused on understanding long-term trends and seasonal effects:
 
 - Time series analysis  
-  - Date production will be anlalyzed over time  
+  - Date production will be analyzed over time  
   - Long-term growth patterns will be identified
 
 - Seasonal analysis  
@@ -123,7 +123,7 @@ EDA focused on understanding long-term trends and seasonal effects:
 
 ### 3. Feature Engineering
 
-Constructed explanatory variables including:
+Constructed explanatory variables, including:
 
 - Seasonal indicators  
   - Harvest season (Augâ€“Oct)  
@@ -229,7 +229,7 @@ The following hypotheses were evaluated using statistical analysis and correlati
 
 ---
 
-- Data will be cleaned and merged dataset (production, trends, seasonal indicators)
+- Data will be cleaned and merged into a dataset (production, trends, seasonal indicators)
   
 - Jupyter notebooks & Google Collab (EDA, hypothesis testing, modeling)
   
@@ -255,7 +255,7 @@ Datasets (production, Google Trends, seasonal indicators) were aligned by year f
 
 - **Demand proxy:** Google Trends is used as a proxy for demand, which reflects search interest rather than actual consumption.
 
-- **Data limitations:** Production data may contain missing or interpolated values, which can affect accuracy of the analysis.
+- **Data limitations:** Production data may contain missing or interpolated values, which can affect the accuracy of the analysis.
 
 - **Temporal alignment:** Differences in data frequency (e.g., yearly vs. seasonal patterns) may reduce precision for the study.
 
@@ -274,3 +274,5 @@ Datasets (production, Google Trends, seasonal indicators) were aligned by year f
 - **Objective:** Analyze how production and demand vary over time and across seasonal and religious periods
   
 - **Outcome:** Apply data science methods to identify patterns, test relationships, and evaluate the impact of seasonal and demand factors
+
+
