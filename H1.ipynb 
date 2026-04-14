@@ -28,14 +28,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 25,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 73
         },
         "id": "4-oCKWne1soz",
-        "outputId": "31854e5e-e5bd-4a1f-cbc6-9239341eb97f"
+        "outputId": "d8bfd7a0-bab8-4387-b401-0b372549b847"
       },
       "outputs": [
         {
@@ -46,9 +46,9 @@
             ],
             "text/html": [
               "\n",
-              "     <input type=\"file\" id=\"files-3532106d-f22e-499b-acc2-a3f686fcc468\" name=\"files[]\" multiple disabled\n",
+              "     <input type=\"file\" id=\"files-4ccad931-135d-4151-abb4-c52619fb0e63\" name=\"files[]\" multiple disabled\n",
               "        style=\"border:none\" />\n",
-              "     <output id=\"result-3532106d-f22e-499b-acc2-a3f686fcc468\">\n",
+              "     <output id=\"result-4ccad931-135d-4151-abb4-c52619fb0e63\">\n",
               "      Upload widget is only available when the cell has been executed in the\n",
               "      current browser session. Please rerun this cell to enable.\n",
               "      </output>\n",
@@ -236,7 +236,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Saving production (2).csv to production (2).csv\n"
+            "Saving production (2).csv to production (2) (1).csv\n"
           ]
         }
       ],
@@ -290,7 +290,7 @@
       "metadata": {
         "id": "Zrn794b4139n"
       },
-      "execution_count": null,
+      "execution_count": 26,
       "outputs": []
     },
     {
@@ -311,9 +311,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0AQANNaqoIGV",
-        "outputId": "5c45ccc6-241b-4943-9e89-4979a88141d7"
+        "outputId": "b4ac06bc-b0d6-47c9-db99-5818826c5def"
       },
-      "execution_count": null,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "stream",
@@ -325,7 +325,7 @@
             "Model:                            OLS   Adj. R-squared:                  0.692\n",
             "Method:                 Least Squares   F-statistic:                     52.69\n",
             "Date:                Tue, 14 Apr 2026   Prob (F-statistic):           2.85e-07\n",
-            "Time:                        15:20:58   Log-Likelihood:                 12.094\n",
+            "Time:                        15:29:23   Log-Likelihood:                 12.094\n",
             "No. Observations:                  24   AIC:                            -20.19\n",
             "Df Residuals:                      22   BIC:                            -17.83\n",
             "Df Model:                           1                                         \n",
@@ -374,9 +374,9 @@
           "height": 385
         },
         "id": "Dq4g5TQD27LZ",
-        "outputId": "517acd4a-a38f-4196-cbfd-acb2efc01293"
+        "outputId": "865a6efc-25f9-45e0-b0c7-3507960828d1"
       },
-      "execution_count": null,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "display_data",
@@ -409,9 +409,9 @@
           "height": 487
         },
         "id": "p-nSZB_pomgm",
-        "outputId": "902598da-2bb4-4b52-c98d-88de090afdb8"
+        "outputId": "d1bccc51-f5e6-44eb-b153-11fe6d88a698"
       },
-      "execution_count": null,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "display_data",
@@ -448,9 +448,9 @@
           "height": 386
         },
         "id": "HiidPE9Wkgn6",
-        "outputId": "2f867bee-4a0a-4930-8401-0f4480b28d77"
+        "outputId": "ea0e01f8-5ea0-423d-cae0-acf1b8887be8"
       },
-      "execution_count": null,
+      "execution_count": 30,
       "outputs": [
         {
           "output_type": "display_data",
