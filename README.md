@@ -147,19 +147,19 @@ Constructed explanatory variables, including:
   - Flags for missing or interpolated values
   
 
-### 4. Hypothesis Testing
+## Hypothesis Testing
 
-The following hypotheses will be evaluated through ANOVA and Kruskal–Wallis:
+The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
 
-- (H1) Date production exhibits long-term growth patterns
-    
-- (H2) Production varies across seasons and harvest periods
- 
-- (H3) Ramadan increases demand (Google Trends)
-  
-- (H4) Higher production reduces price pressure
-  
-- (H5) Search interest reflects demand trends
+| Hypothesis | Description | Result |
+|---|---|---|
+| H1 | Date production exhibits long-term growth patterns | Confirmed (R² = 0.705, p < 0.001) |
+| H2 | Weather and seasonal variables influence production | Partially confirmed (R² = 0.782, year trend significant at p = 0.030) |
+| H3 | Ramadan increases search interest for dates | Confirmed (t = 2.24, p = 0.0259) |
+| H4 | Higher production reduces producer prices | Not confirmed (Spearman ρ = -0.276, p = 0.254) |
+| H5 | Search interest reflects estimated demand trends | Confirmed (Pearson r = 0.833, p < 0.001) |
+
+The hypothesis testing results suggest that production and demand patterns in the Saudi Arabian dates market are influenced more strongly by long-term trends, trade activity, and consumer search behavior than by yearly weather variables alone.
   
 
 ### 5. Machine Learning
@@ -205,27 +205,30 @@ The following hypotheses will be evaluated through ANOVA and Kruskal–Wallis:
 
 ---
 
-| Category            | Tools                                                        |
-| ------------------- | ------------------------------------------------------------ |
-| **Language**        | Python 3.x                                                   |
-| **Libraries**       | pandas · numpy · matplotlib · seaborn · scikit-learn · scipy |
-| **Environment**     | Jupyter Notebook / Google Collab                                   |
-
+| Category | Tools |
+|---|---|
+| **Language** | Python 3.x |
+| **Libraries** | pandas · numpy · matplotlib · seaborn · scikit-learn · scipy · statsmodels |
+| **Environment** | Jupyter Notebook · Google |
 ---
 
 ## Hypotheses Testing
 
 ---
 
-The following hypotheses were evaluated using statistical analysis and correlation tests:
+## Hypothesis Testing
+
+The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
 
 | Hypothesis | Description | Result |
-|------------|------------|--------|
-| H1 | Date production exhibits long-term growth patterns | |
-| H2 | Production varies across seasons and harvest periods | |
-| H3 | Ramadan increases demand (Google Trends) | |
-| H4 | Higher production reduces price pressure | |
-| H5 | Search interest reflects demand trends | |
+|---|---|---|
+| H1 | Date production exhibits long-term growth patterns | Confirmed (R² = 0.705, p < 0.001) |
+| H2 | Weather and seasonal variables influence production | Partially confirmed (R² = 0.782, year trend significant at p = 0.030) |
+| H3 | Ramadan increases search interest for dates | Confirmed (t = 2.24, p = 0.0259) |
+| H4 | Higher production reduces producer prices | Not confirmed (Spearman ρ = -0.276, p = 0.254) |
+| H5 | Search interest reflects estimated demand trends | Confirmed (Pearson r = 0.833, p < 0.001) |
+
+The hypothesis testing results suggest that production and demand patterns in the Saudi Arabian dates market are influenced more strongly by long-term trends, trade activity, and consumer search behavior than by yearly weather variables alone.
 
 ---
 
