@@ -101,14 +101,14 @@ This project integrates four heterogeneous datasets covering periods approximate
 ### 1. Data Preparation
 
 - Handled missing values  
-  - Missing production values are filled using interpolation when necessary  
-  - consistent time ranges are formatted across all datasets  
+  - Missing production values were filled using interpolation when necessary  
+  - Consistent time ranges were formatted across all datasets  
 
 - Data alignment  
-  - Production, Google Trends, and seasonal indicators are aligned by (year) period 
+  - Production, Google Trends, and seasonal indicators were aligned by (year) period 
 
 - Data normalization  
-  - Standard variables from data are normalized   
+  - Standard variables from data were normalized   
 
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -116,20 +116,19 @@ This project integrates four heterogeneous datasets covering periods approximate
 EDA focused on understanding long-term trends and seasonal effects:
 
 - Time series analysis  
-  - Date production are analyzed over time  
-  - Long-term growth patterns are identified
+  - Date production was analyzed over time  
+  - Long-term growth patterns were identified
 
 - Seasonal analysis  
-  - Production across different periods are compared
-  - Patterns around Ramadan and harvest seasons are examined
+  - Production across different periods were compared
+  - Patterns around Ramadan and harvest seasons were examined
 
 - Demand analysis   
-  - Google Trends data are analyzed as a proxy for demand  
-  - Spikes in search interest are observed during key periods  
+  - Google Trends data was analyzed as a proxy for demand  
+  - Spikes in search interest was observed during key periods  
 
 - Output  
-  - All figures are stored in the figure directory  
-
+  - All figures were stored in the figure directory  
 
 ### 3. Feature Engineering
 
@@ -163,8 +162,8 @@ Constructed explanatory variables, including:
 
 **Storytelling**
 
-- Key trends and patterns are highlighted
-- Seasonal and demand effects are explained
+- Key trends and patterns were highlighted
+- Seasonal and demand effects were explained
 - Connections between results and real-world context displayed
 
 ---
@@ -180,13 +179,13 @@ Constructed explanatory variables, including:
 | **Environment** | Jupyter Notebook · Google Colab |
 ---
 
-## Hypotheses Testing
+## Hypothesis Testing
 
 ---
 
 The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
 
-| Hypotheses | Description | Result |
+| Hypothesis | Description | Result |
 |---|---|---|
 | H1 | Date production exhibits long-term growth patterns | Confirmed (R² = 0.705, p < 0.001) |
 | H2 | Weather and seasonal variables influence production | Partially confirmed (R² = 0.782, year trend significant at p = 0.030) |
@@ -228,6 +227,8 @@ Two regression models were implemented to predict the log-transformed producer p
 | Lag | Random Forest | 0.030 | 0.102 |
 
 Random Forest generally outperformed Ridge Regression, suggesting that the relationships between the variables and producer prices may be non-linear rather than purely linear.
+
+Weather and lag feature groups showed relatively weak predictive performance compared to demand-related variables.
 
 Feature importance analysis showed that year trend, export quantities, search interest, and previous-year producer prices were among the most influential predictors.
 
