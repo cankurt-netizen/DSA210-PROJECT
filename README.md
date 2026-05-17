@@ -146,45 +146,11 @@ Constructed explanatory variables, including:
 - Data quality indicators  
   - Flags for missing or interpolated values
   
-
-## Hypothesis Testing
-
-The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
-
-| Hypothesis | Description | Result |
-|---|---|---|
-| H1 | Date production exhibits long-term growth patterns | Confirmed (R² = 0.705, p < 0.001) |
-| H2 | Weather and seasonal variables influence production | Partially confirmed (R² = 0.782, year trend significant at p = 0.030) |
-| H3 | Ramadan increases search interest for dates | Confirmed (t = 2.24, p = 0.0259) |
-| H4 | Higher production reduces producer prices | Not confirmed (Spearman ρ = -0.276, p = 0.254) |
-| H5 | Search interest reflects estimated demand trends | Confirmed (Pearson r = 0.833, p < 0.001) |
-
-The hypothesis testing results suggest that production and demand patterns in the Saudi Arabian dates market are influenced more strongly by long-term trends, trade activity, and consumer search behavior than by yearly weather variables alone.
-  
-
-### 5. Machine Learning
-
-**Models**
-
-- Linear Regression (production prediction)
-- Logistic Regression / Random Forest (classification)
-
-**Targets**
-
-- Predict production levels
-- Classify periods (high vs low demand)
-
-**Evaluation**
-
-- Regression: R², MSE  
-- Classification: Accuracy, Precision, Recall, F1, ROC-AUC
-
-**Insights**
-
-- Identifying key factors affecting production and demand
-
+---
 
 ### 6. Visualization and Storytelling
+
+---
 
 **Visualizations**
 
@@ -216,8 +182,6 @@ The hypothesis testing results suggest that production and demand patterns in th
 
 ---
 
-## Hypothesis Testing
-
 The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
 
 | Hypothesis | Description | Result |
@@ -233,6 +197,8 @@ The hypothesis testing results suggest that production and demand patterns in th
 ---
 
 ## Machine Learning Models
+
+---
 
 Two regression models were implemented to predict the log-transformed producer price of Saudi Arabian dates using supply, demand, weather, and lag variables.
 
