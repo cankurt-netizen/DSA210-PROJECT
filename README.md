@@ -16,6 +16,14 @@ Despite their importance, fluctuations in date prices are often attributed to ge
 
 ---
 
+---
+
+## Research Question
+
+To what extent do time, weather conditions, search interest, and production influence the supply and demand of dates in Saudi Arabia?
+
+---
+
 ## Data Sources
 
 This project integrates four heterogeneous datasets covering periods approximately between 2000 and 2025, enriched and aligned temporally:
