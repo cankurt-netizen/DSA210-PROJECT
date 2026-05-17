@@ -20,7 +20,7 @@ Despite their importance, fluctuations in date prices are often attributed to ge
 
 ## Research Question
 
-To what extent do time, weather conditions, search interest, and production influence the supply and demand of dates in Saudi Arabia?
+To what extent does time, weather conditions, search interest, and production influence the supply and demand of dates in Saudi Arabia?
 
 ---
 
@@ -230,6 +230,35 @@ The following hypotheses were evaluated using statistical analysis and correlati
 ---
 
 ## Machine Learning Models
+
+Two regression models were implemented to predict the log-transformed producer price of Saudi Arabian dates using supply, demand, weather, and lag variables.
+
+### Model Setup
+- Models:
+  - Random Forest Regressor
+  - Ridge Regression
+
+- Validation Method:
+  - Leave-One-Out Cross Validation (LOOCV)
+
+- Feature Groups:
+  - Supply variables
+  - Demand variables
+  - Weather variables
+  - Lag variables
+
+### Results
+
+| Model Group | Best Model | R² | MAE |
+|---|---|---|---|
+| Supply | Random Forest | 0.274 | 0.079 |
+| Demand | Random Forest | 0.305 | 0.084 |
+| Weather | Ridge Regression | 0.026 | 0.099 |
+| Lag | Random Forest | 0.030 | 0.102 |
+
+Random Forest generally outperformed Ridge Regression, suggesting that the relationships between the variables and producer prices may be non-linear rather than purely linear.
+
+Feature importance analysis showed that year trend, export quantities, search interest, and previous-year producer prices were among the most influential predictors.
 
 ---
 
