@@ -260,7 +260,7 @@ Feature importance analysis showed that year trend, export quantities, search in
 
 ---
 
-
+The datasets used in this project came from multiple sources with different formats and time frequencies. To ensure compatibility, all datasets were cleaned, normalized, and aligned into a common yearly format before merging. Daily weather data and weekly Google Trends data were aggregated into yearly indicators, while missing values and inconsistent column formats were handled during preprocessing.
 
 ---
 
@@ -290,7 +290,7 @@ Feature importance analysis showed that year trend, export quantities, search in
   The analyses identify statistical relationships between variables but do not establish direct causal effects.
 
 - **Minor Coding Errors:**
-  During the data cleaning and EDA, minor coding errors caused certain values to change the outcomes of the hypotheses testing and machine learning.
+  During preprocessing, several coding and formatting issues were encountered, such as inconsistent column names, missing values, and date-format problems. These were resolved through data cleaning and validation.
   
 ---
 
