@@ -16,15 +16,17 @@ Despite their importance, fluctuations in date prices are often attributed to ge
 
 ---
 
----
-
 ## Research Question
+
+---
 
 To what extent does time, weather conditions, search interest, and production influence the supply and demand of dates in Saudi Arabia?
 
 ---
 
 ## Data Sources
+
+---
 
 This project integrates four heterogeneous datasets covering periods approximately between 2000 and 2025, enriched and aligned temporally:
 
@@ -148,7 +150,7 @@ Constructed explanatory variables, including:
   
 ---
 
-### 6. Visualization and Storytelling
+## 6. Visualization and Storytelling
 
 ---
 
@@ -175,7 +177,7 @@ Constructed explanatory variables, including:
 |---|---|
 | **Language** | Python 3.x |
 | **Libraries** | pandas · numpy · matplotlib · seaborn · scikit-learn · scipy · statsmodels |
-| **Environment** | Jupyter Notebook · Google |
+| **Environment** | Jupyter Notebook · Google Colab |
 ---
 
 ## Hypotheses Testing
@@ -184,7 +186,7 @@ Constructed explanatory variables, including:
 
 The following hypotheses were evaluated using regression analysis, correlation tests, and two-sample t-tests.
 
-| Hypothesis | Description | Result |
+| Hypotheses | Description | Result |
 |---|---|---|
 | H1 | Date production exhibits long-term growth patterns | Confirmed (R² = 0.705, p < 0.001) |
 | H2 | Weather and seasonal variables influence production | Partially confirmed (R² = 0.782, year trend significant at p = 0.030) |
@@ -231,17 +233,26 @@ Feature importance analysis showed that year trend, export quantities, search in
 
 ---
 
-## Expected Deliverables
+## Project Results
 
 ---
 
-- Data will be cleaned and merged into a dataset (production, trends, seasonal indicators)
-  
-- Jupyter notebooks & Google Collab (EDA, hypothesis testing, modeling)
-  
-- Visualizations (stored in plots & graphs)
-  
-- Final report summarizing insights, results, and limitations
+### Key Findings
+
+1. **Saudi Arabian date production increased over time**  
+   Regression analysis confirmed a significant long-term upward trend in production.
+
+2. **Weather variables showed partial influence on production**  
+   Weather-related variables improved the regression model, but not all weather variables were statistically significant.
+
+3. **Ramadan increased search interest for dates**  
+   The t-test showed significantly higher search interest during Ramadan periods.
+
+4. **Search interest was strongly related to estimated demand**  
+   Pearson correlation showed a strong positive relationship between Google Trends search interest and estimated demand.
+
+5. **Demand variables were the strongest machine learning predictors**  
+   The Demand feature group achieved the strongest Random Forest performance in predicting producer prices.
 
 ---
 
@@ -249,7 +260,7 @@ Feature importance analysis showed that year trend, export quantities, search in
 
 ---
 
-Datasets (production, Google Trends, seasonal indicators) were aligned by year for consistency. Google Trends was used as a relative demand proxy, making it comparable over time. Normalization ensured variables are on similar scales, allowing reliable integration and analysis.
+
 
 ---
 
@@ -257,28 +268,41 @@ Datasets (production, Google Trends, seasonal indicators) were aligned by year f
 
 ---
 
-- **Geographic scope:** The analysis focuses on Saudi Arabia, so results may not generalize to other countries or regions.
+- **Limited dataset size:**  
+  Several analyses were conducted using yearly data, resulting in a relatively small number of observations for statistical testing and machine learning models.
 
-- **Demand proxy:** Google Trends is used as a proxy for demand, which reflects search interest rather than actual consumption.
+- **Data availability differences:**  
+  Some datasets covered different time ranges, which reduced the number of overlapping years available after merging.
 
-- **Data limitations:** Production data may contain missing or interpolated values, which can affect the accuracy of the analysis.
+- **Demand proxy limitation:**  
+  Google Trends was used as a proxy for demand, reflecting public search interest rather than actual consumer purchases or consumption volumes.
 
-- **Temporal alignment:** Differences in data frequency (e.g., yearly vs. seasonal patterns) may reduce precision for the study.
+- **Weather aggregation limitations:**  
+  Daily weather data was aggregated into seasonal and yearly averages, which may not fully capture short-term extreme weather effects on date production.
 
-- **Association vs. causation:** The analysis identifies patterns and relationships but does not establish causal effects.
+- **Missing or incomplete agricultural records:**  
+  Some FAOSTAT datasets contained missing years or multiple agricultural indicators, requiring filtering and preprocessing before analysis.
+
+- **Model performance limitations:**  
+  Some machine learning models produced weak predictive performance, suggesting that additional market, economic, or policy-related variables may influence producer prices.
+
+- **Association vs. causation:**  
+  The analyses identify statistical relationships between variables but do not establish direct causal effects.
+
+- **Minor Coding Errors:**
+  During the data cleaning and EDA, minor coding errors caused certain values to change the outcomes of the hypotheses testing and machine learning.
+  
+---
+
+## Conclusion
 
 ---
 
-## Summary
+This project analyzed how production, weather conditions, search interest, and trade-related variables influence the supply and demand dynamics of dates in Saudi Arabia between 2000 and 2025.
 
----
+Statistical analysis showed that Saudi Arabian date production has experienced significant long-term growth over time. Ramadan periods were associated with significantly higher Google search interest, and search interest showed a strong positive relationship with estimated demand. However, production alone did not demonstrate a statistically significant relationship with producer prices.
 
-- **Main Dataset:** Date production data (FAOSTAT / national statistics)
-  
-- **Enrichment Data:** Google Trends (demand proxy) + seasonal indicators (Ramadan, harvest periods)
-  
-- **Objective:** Analyze how production and demand vary over time and across seasonal and religious periods
-  
-- **Outcome:** Apply data science methods to identify patterns, test relationships, and evaluate the impact of seasonal and demand factors
+Machine learning models further suggested that demand-related variables, such as export quantities and search interest, were stronger predictors of producer prices than weather variables alone. Random Forest models generally outperformed Ridge Regression, indicating that non-linear relationships may exist within the market.
 
+Overall, the project demonstrated how combining agricultural, weather, trade, and public-interest data can provide valuable insights into the Saudi Arabian dates market and help better understand the factors influencing supply, demand, and producer prices.
 
