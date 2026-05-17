@@ -150,7 +150,7 @@ Constructed explanatory variables, including:
   
 ---
 
-## 6. Visualization and Storytelling
+## Visualization and Storytelling
 
 ---
 
