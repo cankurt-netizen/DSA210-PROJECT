@@ -101,14 +101,14 @@ This project integrates four heterogeneous datasets covering periods approximate
 ### 1. Data Preparation
 
 - Handled missing values  
-  - Missing production values will be filled using interpolation when necessary  
-  - consistent time ranges will be formatted across all datasets  
+  - Missing production values are filled using interpolation when necessary  
+  - consistent time ranges are formatted across all datasets  
 
 - Data alignment  
-  - Production, Google Trends, and seasonal indicators will be aligned by (year) period 
+  - Production, Google Trends, and seasonal indicators are aligned by (year) period 
 
 - Data normalization  
-  - Standard variables from data will be normalized   
+  - Standard variables from data are normalized   
 
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -116,19 +116,19 @@ This project integrates four heterogeneous datasets covering periods approximate
 EDA focused on understanding long-term trends and seasonal effects:
 
 - Time series analysis  
-  - Date production will be analyzed over time  
-  - Long-term growth patterns will be identified
+  - Date production are analyzed over time  
+  - Long-term growth patterns are identified
 
 - Seasonal analysis  
-  - Production across different periods will be compared
-  - Patterns around Ramadan and harvest seasons will be examined
+  - Production across different periods are compared
+  - Patterns around Ramadan and harvest seasons are examined
 
 - Demand analysis   
-  - Google Trends data will be analyzed as a proxy for demand  
-  - Spikes in search interest will be observed during key periods  
+  - Google Trends data are analyzed as a proxy for demand  
+  - Spikes in search interest are observed during key periods  
 
 - Output  
-  - All figures will be stored in the figure directory  
+  - All figures are stored in the figure directory  
 
 
 ### 3. Feature Engineering
@@ -163,9 +163,9 @@ Constructed explanatory variables, including:
 
 **Storytelling**
 
-- Key trends and patterns will be highlighted
-- Seasonal and demand effects will be explained
-- Connections between results and real-world context will be displayed
+- Key trends and patterns are highlighted
+- Seasonal and demand effects are explained
+- Connections between results and real-world context displayed
 
 ---
 
