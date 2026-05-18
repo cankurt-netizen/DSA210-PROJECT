@@ -265,6 +265,20 @@ The datasets used in this project came from multiple sources with different form
 
 ---
 
+## AI Assistance Disclosure
+
+---
+
+AI tools (Chatgpt, Claude, Gemini) were utilized for:
+
+*Debugging and restructuring Python code
+*Improving figure visualization and clarity
+*Reviewing statistical interperatations from results
+*Providing feedback on certain inconsistencies in the project
+*Enhancing documentation and README file structure
+
+---
+
 ## Limitations
 
 ---
