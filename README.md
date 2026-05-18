@@ -120,12 +120,12 @@ EDA focused on understanding long-term trends and seasonal effects:
   - Long-term growth patterns were identified
 
 - Seasonal analysis  
-  - Production across different periods were compared
+  - Production across different periods was compared
   - Patterns around Ramadan and harvest seasons were examined
 
 - Demand analysis   
   - Google Trends data was analyzed as a proxy for demand  
-  - Spikes in search interest was observed during key periods  
+  - Spikes in search interest were observed during key periods  
 
 - Output  
   - All figures were stored in the figure directory  
@@ -164,7 +164,7 @@ Constructed explanatory variables, including:
 
 - Key trends and patterns were highlighted
 - Seasonal and demand effects were explained
-- Connections between results and real-world context displayed
+- Connections between results and real-world context were displayed
 
 ---
 
@@ -209,7 +209,7 @@ Two regression models were implemented to predict the log-transformed producer p
   - Ridge Regression
 
 - Validation Method:
-  - Leave-One-Out Cross Validation (LOOCV)
+  - Leave-One-Out Cross-Validation (LOOCV)
 
 - Feature Groups:
   - Supply variables
@@ -269,13 +269,13 @@ The datasets used in this project came from multiple sources with different form
 
 ---
 
-AI tools (Chatgpt, Claude, Gemini) were utilized for:
+AI tools (ChatGPT, Claude, Gemini) were utilized for:
 
-*Debugging and restructuring Python code
-*Improving figure visualization and clarity
-*Reviewing statistical interperatations from results
-*Providing feedback on certain inconsistencies in the project
-*Enhancing documentation and README file structure
+* Debugging and restructuring Python code
+* Improving figure visualization and clarity
+* Reviewing statistical interpretations from results
+* Providing feedback on certain inconsistencies in the project
+* Enhancing documentation and README file structure
 
 ---
 
@@ -304,9 +304,6 @@ AI tools (Chatgpt, Claude, Gemini) were utilized for:
 - **Association vs. causation:**  
   The analyses identify statistical relationships between variables but do not establish direct causal effects.
 
-- **Minor Coding Errors:**
-  During preprocessing, several coding and formatting issues were encountered, such as inconsistent column names, missing values, and date-format problems. These were resolved through data cleaning and validation.
-  
 ---
 
 ## Conclusion
