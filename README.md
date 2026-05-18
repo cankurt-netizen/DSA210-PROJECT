@@ -20,7 +20,7 @@ Despite their importance, fluctuations in date prices are often attributed to ge
 
 ---
 
-To what extent does time, weather conditions, search interest, and production influence the supply and demand of dates in Saudi Arabia?
+To what extent do certain environmental, temporal, and social factors affect the supply and demand of dates in Saudi Arabia?
 
 ---
 
